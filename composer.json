@@ -1,0 +1,35 @@
+{
+  "name": "m1roff/telegram-api-helpers",
+  "description": "PHP Helper functions for Telegram Bot API",
+  "keywords": [
+    "php",
+    "telegram",
+    "telegram bot",
+    "helper",
+    "bot",
+    "bot api"
+  ],
+  "homepage": "https://github.com/m1roff/telegram-api-helpers",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Miroff",
+      "email": "m@miroff.su",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php" : ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "M1roff\\Telegram\\Helper\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "M1roff\\Telegram\\Helper\\Test": "tests"
+    }
+  }
+
+}
